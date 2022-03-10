@@ -1,0 +1,11 @@
+.null li{
+    color: yellow;
+}
+
+.true li {
+    color: green;
+}
+
+.false li{
+    color: red;
+}
