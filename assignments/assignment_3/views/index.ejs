@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NodeJS_Assgn#3</title>
+</head>
+<body>
+    <ol>
+    
+        <%users.forEach((user)=> { %>
+    
+            <li>
+    
+                <p>Name:<%= user.name %></p>
+                <p>Email:<%= user.email %></p>
+    
+            </li>
+    
+       <% })%>
+    
+    </ol>
+
+    <button> <a href="/form" style="text-decoration: none">Add</a></button>
+</body>
+</html>
